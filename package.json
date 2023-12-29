@@ -1,0 +1,21 @@
+{
+  "name": "talks",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "slidev": "slidev",
+    "dev:open": "slidev --open",
+    "code-as-story": "slidev ./code-as-story.md --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.46.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.63",
+    "@iconify-json/uim": "^1.1.9"
+  }
+}
